@@ -29,3 +29,5 @@ Unveiling The Challenges - 4pm 22th October
 Challenges To Be Submitted  - 4pm 29th October
 
 # Code of Conduct
+
+We would fully comply to the Code of Conduct stipulated by Qiskit Fall Fest
