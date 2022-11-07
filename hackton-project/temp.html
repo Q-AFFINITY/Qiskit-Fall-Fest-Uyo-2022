@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/temp.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="ladder-div">
+            <img src="./assets/images/ladder.png" alt="" class="ladder">
+            <div class="car-div">
+                <img src="./assets/images/car.png" alt="" class="car moveIn">
+
+            </div>
+        </div>
+
+        <div class="quiz-container">
+            <div id="display-container">
+                <div class="header">
+                    <div class="number-of-count">
+                        <span class="number-of-question">1 of 3 questions</span>
+                    </div>
+                    <div class="timer-div">
+                        <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/stopwatch-icon.png"
+                            width="20px" />
+                        <span class="time-left">20s</span>
+                    </div>
+                </div>
+                <div id="container">
+                    <!-- questions and options will be displayed here -->
+                </div>
+                
+                <button class="end-quiz-btn">End Quiz</button>
+                <button id="next-button">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- score container  -->
+    <!-- <div class="score-container hide">
+        <div id="user-score">Demo Score</div>
+        <button id="restart">Restart</button>
+    </div> -->
+
+
+
+    <!-- Script -->
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/temp.js"></script>
+</body>
+
+</html>

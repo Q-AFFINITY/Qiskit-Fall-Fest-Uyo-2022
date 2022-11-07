@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="./assets/css/result.css">
+</head>
+
+<body>
+
+    <div class="container p-3">
+
+        <div id="fail" class="text-center p-5" style="display: none">
+            <h1 class="fw-bold">You Scored </h1>
+            <div class="score fs-3 my-4 userScore">0 / 10 Points</div>
+            <button class="btn btn-danger my-4"><a href="temp.html" class="nav-link">Retake Quiz</a> </button>
+            <button class="btn btn-secondary"><a href="index.html" class="nav-link">Back To Homepage</a></button>
+        </div>
+
+
+        <div id="pass" style="display: none">
+            <div class="title text-center">
+                <h1 class="text-center fw-bold">CONGRATULATIONS</h1>
+                <img src="./assets/images/trophy.png" alt="" class="w-25">
+            </div>
+    
+            <div class="score text-center mt-4">
+                <h3 class="fw-bold userScore">You scored 6 / 10 </h3>
+            </div>
+    
+            <div class="low-score-btn text-center">
+                <button class="btn btn-danger"><a href="temp.html" class="nav-link">Retake Quiz</a></button>
+                <button class="btn btn-secondary"><a href="index.html" class="nav-link">Back to homepage</a></button>
+            </div>
+    
+            <div id="certificate">
+                <div class="box text-center p-0">
+                    <div class="blue-bg">
+                        <div class="circle">
+                           <img src="./assets/images/logo.png" alt="" class="w-100">
+                        </div>
+                    </div>
+                    <h2 class="fw-bold fs-2 px-1"><i>Certificate Of Completion</i></h2>
+    
+                    <div class="username fs-4 mt-4">Joseph</div>
+    
+                    <p style="font-style: italic" class="mt-4 m-0">has completed the </p>
+                    <p class="fw-bold fs-2 p-0">Quantum Quiz Test</p>
+                    <p class="date"> On <br> <span class="fw-bold">2nd, October 2022</span> </p>
+                </div>
+            </div>
+    
+            <div class="mt-4 text-center">
+                <button class="btn btn-success" id="download-cert">Download Certificate</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- main js file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
+    <script src="./assets/js/result.js"></script>
+</body>
+
+</html>
