@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#fail {
+    background-color: white;
+    box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.424);
+    min-width: 300px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+
+#certificate .blue-bg {
+    background-color: rgb(78, 173, 237);
+    width: 100%;
+    min-height: 70px;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.blue-bg .circle {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#certificate .box {
+    border: 1px solid rgba(0, 0, 0, 0.298);
+    border-radius: 3px;
+    max-width: 400px;
+    min-height: 350px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color: white;
+}
