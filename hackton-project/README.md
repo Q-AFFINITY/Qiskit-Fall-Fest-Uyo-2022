@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <div align="center">
-  <h1>Qiskit Fall Fest 2022 Hackaton</h1>
+  <h1>Qiskit Fall Fest 2022 Hackathon</h1>
   <h2>Quantum Quiz App </h2>
   <p>This quiz app was created for the qiskit fall fest 2022 hackaton. The app contains quantum quiz questions which the users are expected to answer. </p>
 
